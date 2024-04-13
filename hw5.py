@@ -1,7 +1,7 @@
 def read_single_digit(n) :
     index = ['영','일','이','삼','사','오','육','칠','팔','구']
-    if 1 <= n <= 9 :
-        return index[n-1]
+    if 0 <= n <= 9 :
+        return index[n]
 
 def read_number(n) :
     index = ['영','일','이','삼','사','오','육','칠','팔','구']
