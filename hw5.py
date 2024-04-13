@@ -12,5 +12,5 @@ def read_number(n) :
             result += index[int(digit)] +' '
     return result.strip()
 
-n = int(input('세 자리 정수 입력 : '))
+n = int(input('세 자리 정수 입력 :'))
 print(read_number(n))
